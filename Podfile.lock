@@ -1,0 +1,50 @@
+PODS:
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Google-Maps-iOS-Utils (1.1.2):
+    - Google-Maps-iOS-Utils/Clustering (= 1.1.2)
+    - Google-Maps-iOS-Utils/QuadTree (= 1.1.2)
+    - GoogleMaps
+  - Google-Maps-iOS-Utils/Clustering (1.1.2):
+    - Google-Maps-iOS-Utils/QuadTree
+    - GoogleMaps
+  - Google-Maps-iOS-Utils/QuadTree (1.1.2):
+    - GoogleMaps
+  - GoogleMaps (2.1.1):
+    - GoogleMaps/Maps (= 2.1.1)
+  - GoogleMaps/Base (2.1.1)
+  - GoogleMaps/Maps (2.1.1):
+    - GoogleMaps/Base
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.5.4)
+  - Google-Maps-iOS-Utils
+  - GoogleMaps
+
+SPEC CHECKSUMS:
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  Google-Maps-iOS-Utils: 4f308c9bf3b0da228aff1435a92f9fc2e13a28ff
+  GoogleMaps: a5b5bbe47734e2443bde781a6aa64e69fdb6d785
+
+PODFILE CHECKSUM: 31478e251d21f8b4c35d1f739227cbcf59f6c3af
+
+COCOAPODS: 1.1.1
